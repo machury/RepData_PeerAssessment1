@@ -15,7 +15,7 @@ install.packages("ggplot2")
 ## package 'ggplot2' successfully unpacked and MD5 sums checked
 ## 
 ## The downloaded binary packages are in
-## 	C:\Users\machury\AppData\Local\Temp\1\RtmpO4Mtn7\downloaded_packages
+## 	C:\Users\machury\AppData\Local\Temp\1\RtmpsZDc0L\downloaded_packages
 ```
 
 ```r
@@ -25,7 +25,7 @@ library(ggplot2)
 ## Loading and preprocessing the data
 
 ```r
-activityData <- read.csv("data\\activity.csv")  #TODO Swtich to Repo
+activityData <- read.csv("data\\activity.csv")
 activityData$date <- as.Date(activityData$date, format = "%Y-%m-%d")
 ```
 
